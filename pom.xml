@@ -4,7 +4,7 @@
 
     <groupId>net.lalotech</groupId>
     <artifactId>struts2-tag-plugin</artifactId>
-    <version>0.6</version>
+    <version>0.7</version>
     <packaging>jar</packaging>
 
     <name>Struts 2 Tag's Plugin</name>
@@ -45,12 +45,12 @@
                     </includes>
                 </configuration>
                 <executions>
-                    <execution>
+                    <!-- <execution>
                         <phase>compile</phase>
                         <goals>
                             <goal>execute</goal>
                         </goals>
-                    </execution>
+                    </execution> -->
                 </executions>
             </plugin>
         </plugins>

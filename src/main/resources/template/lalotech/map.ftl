@@ -47,7 +47,7 @@
             <@s.if test="infowindow != null && infowindow != ''">
             //infoWindow
             var marker<@s.property value="%{#it.count}"/>InfoWindow = new google.maps.InfoWindow({
-                content: "<@s.property value='infowindow'/>"
+                content: "<@s.property value='infowindow' escapeHtml='false'/>"
             });
             //click infoWindow
             google.maps.event.addListener(marker<@s.property value="%{#it.count}"/>, 'click', function() {
